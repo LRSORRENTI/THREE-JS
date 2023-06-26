@@ -36,7 +36,8 @@ function onWindowResize() {
 
 function animate() {
     requestAnimationFrame(animate)
-
+// Below is the rotate animation, if you comment 
+// it out, you can manually rotate the cube with mouse
     cube.rotation.x += 0.01
     cube.rotation.y += 0.01
 
